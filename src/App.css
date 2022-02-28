@@ -1,0 +1,56 @@
+*{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.App{
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+
+}
+
+.Quote{
+  padding: 15px 25px;
+  width: 550px;
+  max-width: 1000px;
+  box-shadow: 2px 2px 8px #292828;
+  background-color: #ffffff;
+}
+
+.Quote p:first-child{
+  display: flex;
+  align-items: flex-start;
+}
+
+.Quote p:first-child i{
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+.btn{
+  text-align: end;
+}
+
+.btn button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0px solid white;
+  box-shadow: 2px 2px 2px black;
+}
+
+.Author{
+  display: flex;
+  justify-content: right;
+}
+
+.btn button i{
+  align-items: flex-end;
+  font-size: 30px;
+  color:#ffffff;
+}
